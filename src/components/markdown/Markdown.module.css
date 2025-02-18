@@ -1,0 +1,198 @@
+/* Markdown Styles */
+.Markdown {
+    font-family: 'Cairo', sans-serif;
+    color: #1a1a1a;
+    line-height: 1.8;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, 
+               rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, 
+               rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px;
+    margin: 1rem 0;
+  }
+  
+  /* Headings */
+  .Markdown h1, .Markdown h2, .Markdown h3 {
+    font-weight: 700;
+    margin: 1.5rem 0;
+    color: #2d3748;
+  }
+  
+  .Markdown h1 { font-size: 2rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; }
+  .Markdown h2 { font-size: 1.75rem; }
+  .Markdown h3 { font-size: 1.5rem; }
+  
+  /* Paragraphs */
+  .Markdown p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    color: #4a5568;
+  }
+  
+  /* Lists */
+  .Markdown ul, .Markdown ol {
+    padding: 0 1.5rem;
+    margin: 1rem 0;
+    background: rgba(245, 245, 245, 0.5);
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+  }
+  
+  .Markdown li {
+    margin: 0.5rem 0;
+    padding: 0.25rem 0;
+  }
+  
+  .Markdown pre {
+    background: rgba(40, 40, 45, 0.685);
+    background: rgb(40, 40, 45);
+
+    border-radius: 8px;
+    /* padding: 4px 8px; */
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    color: #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px;
+  }
+  
+  .Markdown code {
+    font-family: 'Cairo', monospace;
+    background: rgba(40, 40, 45, 0.15);
+    padding: 10px;
+    border-radius: 4px;
+    
+    color: #2d3748;
+  }
+  
+  .Markdown img {
+    width: 100%;
+    max-width: 640px;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+  }
+  
+  .Markdown a {
+    color: #40a788;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(64, 167, 136, 0.3);
+    transition: all 0.3s ease;
+  }
+  
+  .Markdown a:hover {
+    color: #2d7a63;
+    border-bottom-color: #40a788;
+  }
+  
+  .Markdown blockquote {
+    border-left: 4px solid #40a788;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    background: rgba(64, 167, 136, 0.05);
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+  }
+  
+  .Markdown table {
+    width: 100%;
+    margin: 1.5rem 0;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  
+  .Markdown th, .Markdown td {
+    padding: 1rem;
+    border: 1px solid rgba(224, 224, 224, 0.5);
+    text-align: right;
+  }
+  
+  .Markdown th {
+    background: rgba(64, 167, 136, 0.1);
+    font-weight: 700;
+  }
+  
+  /* Warning Blocks */
+  .Markdown p[markclass='warning'],
+  .Markdown p[markclass='WARNING'] {
+    background: rgba(255, 251, 235, 0.8);
+    color: #92400e;
+    padding: 1.5rem;
+    border: 2px solid #fcd34d;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+  }
+  
+  .Markdown pre::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .Markdown pre::-webkit-scrollbar-thumb {
+    background: rgba(64, 167, 136, 0.5);
+    border-radius: 4px;
+  }
+  
+  .Markdown pre::-webkit-scrollbar-track {
+    background: rgba(245, 245, 245, 0.3);
+  }
+  
+
+  @media (max-width: 768px) {
+    .Markdown {
+      padding: 1rem;
+      margin: 0.5rem;
+      -webkit-backdrop-filter: blur(4px);
+      backdrop-filter: blur(4px);
+    }
+    
+    .Markdown h1 { font-size: 1.75rem; }
+    .Markdown h2 { font-size: 1.5rem; }
+    .Markdown h3 { font-size: 1.25rem; }
+    
+    .Markdown pre {
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+      /* border-radius: 0; */
+    }
+  }
+  .Copie{
+    /* background-color: rgba(255, 255, 255, 0.123); */
+    color: white;
+    padding: 5px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    font-size: 1.125em;
+     line-height: 1.33333em;
+     /* padding-left: 2em; */
+     text-transform: lowercase;
+     letter-spacing: 0.05em;
+
+    right:  15px;
+    bottom: 15px;
+    /* transition: all .5s; */
+    opacity: 0.5;
+    cursor: pointer;
+
+;
+   }
+   .copyButton{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   }
+   .Copie:hover{
+    /* background-color: rgba(255, 255, 255, 0.342); */
+    opacity: .9;
+
+   }

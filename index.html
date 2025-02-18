@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algerain History</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      Object.defineProperty(window, 'team', {
+  get: function() {
+    const data = [
+      { name: 'Alice', role: 'Developer' },
+      { name: 'Bob', role: 'Designer' },
+      { name: 'Charlie', role: 'Manager' }
+    ];
+    console.table(data);
+    return data;
+  }
+});
+    </script>
+  </body>
+</html>

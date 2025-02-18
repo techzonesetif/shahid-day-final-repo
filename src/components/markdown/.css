@@ -1,0 +1,174 @@
+.Markdown{
+
+}
+
+
+.Markdown >div{
+    box-shadow: rgba(50, 50, 93, 0.139) 0px 30px 60px -12px , rgba(0, 0, 0, 0.172) 0px 18px 36px -18px ;
+    border-radius:4px;
+} 
+
+.Markdown ul,.Markdown ol{
+    padding:0 20px ;
+    background-color: aqua;
+}
+
+
+
+.Markdown pre {
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    max-width: 69vw;
+    word-break: break-all;
+    overflow: hidden;
+    line-break: anywhere;
+   }
+.Markdown code {
+    color: #000;
+
+   }
+
+
+   .Markdown pre *::-webkit-scrollbar {height: 10px; }
+   .Markdown pre *::-webkit-scrollbar-track {background: #ff00f207;border-radius: 0px;margin: 0px;}
+   .Markdown pre *::-webkit-scrollbar-thumb {background: var(--mainColor); border-radius: 0px; }
+   .Markdown pre *::-webkit-scrollbar-thumb:hover {background: ccc; border-radius: 0px; }
+
+
+
+.Markdown >p {
+   direction: auto;
+   }
+.Markdown img {
+    width: 50%;
+    margin: auto;
+}
+.Markdown a{
+    padding: 2px 2px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: green;
+    width: 100%;
+    cursor: pointer;
+   }
+.Markdown p[markcalss='warning'],.Markdown p[markcalss='WARNING']{
+    color: var(--mainColor);
+    padding: 10PX 0;
+    border: 2px solid;
+    /* width: 100% ; */
+    padding: 10PX;
+    max-width: 100%;
+    /* height: 40px; */
+    background-color: rgba(0, 255, 255, 0.315);
+    opacity: .5;
+   }
+   
+   .code::before{
+    content: " ";
+    width: 1.5rem;
+    height:10px;
+    background: var(--mainColor);
+    top:0%;
+    left:  -2rem;
+    position: absolute;
+    transform: translateY(10px);
+    transform-origin: center;
+    transition: background 0.3s linear, width 0.3s linear;
+   }
+   .Copie{
+    /* background-color: rgba(255, 255, 255, 0.123); */
+    color: white;
+    padding: 5px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 18px;
+    font-size: 1.125em;
+     line-height: 1.33333em;
+     /* padding-left: 2em; */
+     text-transform: lowercase;
+     letter-spacing: 0.05em;
+
+    right:  15px;
+    bottom: 15px;
+    /* transition: all .5s; */
+    opacity: 0.5;
+
+   }
+   .Copie:hover{
+    /* background-color: rgba(255, 255, 255, 0.342); */
+    opacity: .9;
+   }
+
+
+
+
+
+
+   
+
+   .viewer{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    position: relative;
+    box-shadow: none;
+    gap: 10px;
+    width: 70vw;
+    overflow-x: scroll;
+    border: 2px solid;
+    }
+    .viewer::-webkit-scrollbar {height: 5px; }
+    .viewer::-webkit-scrollbar-track {background: #ff00f207;border-radius: 0px;margin: 0px;}
+    .viewer::-webkit-scrollbar-thumb {background: #000; border-radius: 0px; }
+    .viewer::-webkit-scrollbar-thumb:hover {background: var(--mainColor); border-radius: 0px; }
+    .viewer >img{
+    padding: 10px;
+    max-height:450px;
+    width: 100%;
+    min-width:300px;
+    /* flex-basis: 30%; */
+    opacity: .8;
+    /* scale:.8; */
+    transition: all 1s;
+   }
+   .viewer >img:hover{
+    position: relative;
+    z-index: 999;
+    opacity: 1;
+    scale: 1;
+   }
+   @media only screen and (max-width: 1100px){
+    .viewer{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        position: relative;
+        box-shadow: none;
+        width:calc( 100% - 40px );
+        padding:20px;
+       }
+       .viewer >img{
+        background-color: transparent;
+        max-width: unset;
+        flex-basis: 40%;
+        opacity: 1;
+        scale:1;
+        transition: all 1s;
+       }
+       .viewer >img:hover{
+        position: relative;
+        width: unset;
+        z-index: 999;
+        /* opacity: 1; */
+        scale: 1;
+       }
+       .Markdown pre {
+        /* padding: 2px 10px; */
+        /* border-radius: 5px; */
+        /* color: white; */
+        width: 100%;
+        max-width: 100%;
+    
+       }
+}
