@@ -148,7 +148,7 @@
   line-height: 1.6;
 }
 
-/* ---- hero responsive ---- */
+/* ---- hero responsive ----- */
 @media (max-width: 768px) {
   .hero h2 {
     font-size: 32px;

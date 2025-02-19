@@ -34,6 +34,7 @@ function Home() {
       <Suspense fallback={<div className={style.loading}>Loading Martyrs...</div>}>
         <MartyrsSection />
       </Suspense>
+      
       <hr />
 
       <Suspense fallback={<div className={style.loading}>Loading Quotes...</div>}>
