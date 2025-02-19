@@ -39,6 +39,7 @@ function Home() {
       <Suspense fallback={<div className={style.loading}>Loading Quotes...</div>}>
         <QuotesSection />
       </Suspense>
+      <hr />
     </div>
   );
 }

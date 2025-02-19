@@ -74,13 +74,13 @@ function Footer() {
             <p>Faculty of sciences</p>
             <div className={style["fac-links"]}>
               <FontAwesomeIcon icon={faFacebook} />
-              <MemoizedFooterLink to="https://facebook.com/yourpage" isExternal>
+              <MemoizedFooterLink to="https://www.facebook.com/fsciences/" isExternal>
                 Visit our page
               </MemoizedFooterLink>
             </div>
             <div className={style["fac-links"]}>
               <FontAwesomeIcon icon={faEnvelope} />
-              <MemoizedFooterLink to="mailto:contact@example.com">
+              <MemoizedFooterLink to="https://mail.univ-setif.dz/">
                 Check our email
               </MemoizedFooterLink>
             </div>
