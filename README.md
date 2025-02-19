@@ -1,4 +1,4 @@
-# Martyr's Day in Algeria Website
+# Algeria Martyr's Day Website
 
 ## 📌 About the Project
 This website is dedicated to **Martyr's Day in Algeria (18 February)**, honoring the sacrifices of Algerian martyrs who fought for the country's independence. The website provides historical insights, tributes, and educational resources.
