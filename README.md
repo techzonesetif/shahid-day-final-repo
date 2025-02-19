@@ -14,7 +14,7 @@ This website is dedicated to **Martyr's Day in Algeria (18 February)**, honoring
 - [See deployment](https://shahid-day.netlify.app/)
 
 ## 📞 Contact
-For any inquiries, reach out to **TeckZone** at techzone.clubsetif@gmail.com or visit [[yourwebsite.com](https://linktr.ee/techzone._.club)].
+For any inquiries, reach out to **TeckZone** at techzone.clubsetif@gmail.com or visit [Our Website](https://linktr.ee/techzone._.club)].
 
 
 
